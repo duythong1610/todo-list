@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo list</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>TODO LIST</h1>
+
+      <form action="" id="form">
+        <input
+          class="input"
+          id="input"
+          type="text"
+          placeholder="Enter your todos"
+          autocomplete="off"
+        />
+
+        <ul class="todos" id="todos"></ul>
+      </form>
+
+      <div class="notes">
+        Note:
+        <span class="mouse-left"
+          >Click chuột trái để chuyển đổi thành đã hoàn thành
+        </span>
+
+        <span class="mouse-right"
+          >Click chuột phải để xóa công việc cần làm</span
+        >
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
