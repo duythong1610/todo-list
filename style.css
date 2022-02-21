@@ -59,10 +59,13 @@ h1 {
   font-size: 200px;
   font-weight: 600;
   color: #999;
+  background-image: linear-gradient(to right, #1db198ab 30%, #e420a9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #form {
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 0 0px;
   margin: 0 auto;
   width: 100%;
   max-width: 500px;
@@ -70,9 +73,8 @@ h1 {
 }
 #input {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 10px 10px 0 0;
   padding: 30px;
-
   font-size: 50px;
 }
 
@@ -80,7 +82,7 @@ h1 {
   opacity: 0.6;
 }
 #input:focus {
-  outline-color: rgb(199, 7, 216);
+  outline-color: #1db198ab;
 }
 
 .todos {
@@ -102,10 +104,10 @@ h1 {
   text-decoration: line-through;
 }
 
-.notes{
-    margin-top: 20px;
+.notes {
+  margin-top: 20px;
 }
 
-.mouse-left{
-    display: block;
+.mouse-left {
+  display: block;
 }
